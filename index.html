@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Sorority Life</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inside Sorority Life</h1>
+    <img src="hero.JPG" alt="describe the image HERE for accessibility purposes" style="width:110%;" class="center-img">
+     <p style="text-align: center"><em></em></p>
+
+
+
+
+
+
+    <!-- Buttons to link to other pages -->
+    <button onclick="goToInterviewPage()">Go to Interview Page</button>
+    <button onclick="goToHistoryPage()">Go to History Page</button>
+    <button onclick="goToNegativeHistoryPage()">Go to Negative History Page</button>
+    <button onclick="goToVocabPage()">Go to Vocab Page</button>
+
+    <!-- Optional: Add any additional scripts here -->
+    <script>
+        function goToInterviewPage() {
+            // Redirect to interview.html
+            window.location.href = "Interview.html";
+        }
+
+        function goToHistoryPage() {
+            // Redirect to history.html
+            window.location.href = "History.html";
+        }
+
+        function goToNegativeHistoryPage() {
+            // Redirect to negativehistory.html
+            window.location.href = "negativehistory.html";
+        }
+
+        function goToVocabPage() {
+            // Redirect to vocab.html
+            window.location.href = "vocab.html";
+        }
+    </script>
+</body>
+</html>
